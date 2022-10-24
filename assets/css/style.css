@@ -77,5 +77,51 @@ h3 {
 
 .information {
     font-size: 110%;
+    height: 200px;
+    padding: 0 50px 0 50px;
+    display: block;
 }
 
+#who-are-we {
+    max-width: 48%;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+
+#programme {
+    max-width: 48%;
+    text-align: center;
+    display: inline;
+    float: right;
+}
+
+/*sign up form*/
+form { 
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(46, 46, 46, 0.7);
+    padding: 20px 10px 20px 10px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-text {
+    width: 98%;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+#button {
+    padding: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: #3F3F3F;
+    color: white;
+}

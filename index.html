@@ -12,6 +12,7 @@
 
     <title>Towards Ironman</title>
 </head>
+
 <body>
     <header>
     <h1>Towards Ironman</h1>
@@ -45,7 +46,7 @@
             Then you have come to the right place!</h3>
         </div>
     <section class="information">
-        <div>
+        <div id="who-are-we">
             <h2>Who Are We?</h2>
             <p>
                 We are two girls that want to help people around the world to dare the challenge of an Ironman.
@@ -54,7 +55,7 @@
                 and therefore knows what to do an not. 
             </p>
         </div>
-        <div>
+        <div id="programme">
             <h2>How does the programme look like?</h2>
             <p>We structure together with you a program that is compleatly suited to you and your 
                 personal level to make you as fit as possible until you're at the startline. In the program there will be of course
@@ -64,7 +65,21 @@
         </div>
     </section>
 
-    <div>Sign up</div>
+    <section>
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Interested to hear more? Fill in this form and we will contact you as soon as possible!</h2>
+            <label for="fname">First Name</label>
+            <input class="form-text" type="text" name="first-name" required>
+
+            <label for="lname">Last Name</label>
+            <input class="form-text" type="text" name="last-name" required>
+
+            <label for="phone">Phone number</label>
+            <input class="form-text" type="number" name="phone-number" required>
+
+            <input id="button" type="submit" value="Let's do this!">
+        </form>
+    </section>
 
     <footer>Contact</footer>
 
