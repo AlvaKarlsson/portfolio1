@@ -47,7 +47,7 @@ color: white;
 /* big picture and text-box*/
 
 #big-picture {
-    background: url(../images/pexels-alari-tammsalu-8024999.jpg) no-repeat center center;
+    background: url(../images/pexels-alari-tammsalu-8024999.jpg) no-repeat center center black;
     width: 100%;
     height: 900px;
 }
