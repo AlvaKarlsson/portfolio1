@@ -97,6 +97,11 @@ h3 {
 }
 
 /*sign up form*/
+
+.form {
+    padding-bottom: 40px;
+}
+
 form { 
     max-width: 600px;
     margin: 0 auto;
@@ -124,4 +129,31 @@ form h2 {
 #button:hover {
     background-color: #3F3F3F;
     color: white;
+}
+
+/* footer */
+
+footer {
+    height: 160px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+    background-color: rgba(46, 46, 46, 0.7);
+}
+
+footer > p {
+    text-align: center;
+    padding: 2px;
+}
+
+.social {
+    text-align: center;
+    }
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    padding: 2%;
 }
