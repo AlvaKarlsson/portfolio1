@@ -151,9 +151,15 @@ footer > p {
 
 .social li {
     display: inline;
+    list-style-type: none;
 }
 
 .social i {
     font-size: 200%;
     padding: 2%;
+    color: white;
+}
+
+.social i:hover {
+    color: gray;
 }
