@@ -68,7 +68,7 @@ color: white;
 
 h1 {
     text-align: center;
-    font-size: 250%%;
+    font-size: 250%;
 
     margin: 70px;
     border: 2px solid white;
@@ -114,6 +114,7 @@ form {
 form h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 150%;
 }
 
 .form-text {
@@ -170,4 +171,141 @@ footer p {
 
 .social i:hover {
     color: gray;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 1200px) {
+    .information {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #text-box {
+     left: 10px;
+     font-size: 230%;
+     width: 750px;
+     height: 150px;
+    } 
+ }
+
+@media screen and (max-width: 960px) {
+    .information {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .information {
+        height: 370px;
+        margin-bottom: 30px;
+    }
+
+    #text-box {
+        font-size: 200%;
+        width: 650px;
+        height: 120px;
+    }
+
+@media screen and (max-width: 660px) {
+    #big-picture {
+        background: url(../images/pexels-alari-tammsalu-8024999\ smaller.jpg) no-repeat center center black;
+        width: 100%;
+        height: 367px;
+    } 
+
+    #text-box {
+        font-size: 100%;
+        width: 250px;
+        height: 100px;
+        top: 200px;
+        left: 20px;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    .information {
+        font-size: 95%;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .information {
+        font-size: 90%;
+        height: 400px;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 110%;
+    }
+    
+    .information {
+        height: 400px;
+        display: block;
+        padding: 0 10px 0 10px;
+    }
+
+    #who-are-we {
+        display: inline;
+        float: none;
+    }
+
+    #programme {
+        display: inline;
+        float: none;
+    }
+
+    hr {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header > h2 {
+        text-align: center;
+        float: none;
+    }
+    
+    #menu {
+        font-size: small;
+   }
+   
+    #text-box {
+        font-size: 90%;
+        width: 220px;
+        height: 90px;
+        top: 250px;
+        left: 20px;
+    }
+
+    h1 {
+        font-size: 90%;
+        padding: 10px;
+        margin: 30px;
+    }
+
+    .information {
+        height: 350px;
+    }
+
+    #who-are-we {
+        font-size: small;
+    }
+
+    #programme {
+        font-size: small;
+    }
+
+    hr {
+        height: 30px;
+    }
 }
