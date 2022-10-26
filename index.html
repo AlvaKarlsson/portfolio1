@@ -8,7 +8,7 @@
     <meta name="keywords" content="ironman, triathlon, workout program">
 
 <!-- stylesheet -->
-<link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
 
     <title>Towards Ironman</title>
 </head>
@@ -70,13 +70,13 @@
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Interested to hear more? Fill in this form and we will contact you as soon as possible!</h2>
             <label for="fname">First Name</label>
-            <input class="form-text" type="text" name="first-name" required>
+            <input id="fname" class="form-text" type="text" name="first-name" required>
 
             <label for="lname">Last Name</label>
-            <input class="form-text" type="text" name="last-name" required>
+            <input id="lname" class="form-text" type="text" name="last-name" required>
 
             <label for="phone">Phone number</label>
-            <input class="form-text" type="number" name="phone-number" required>
+            <input id ="phone" class="form-text" type="number" name="phone-number" required>
 
             <input id="button" type="submit" value="Let's do this!">
         </form>
@@ -88,16 +88,20 @@
         <p>Phone: 012-345 678 910</p>
         <ul class="social">
             <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Check us out on Facebook! (opens in a new tab)">
+                    <i class="fa-brands fa-square-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Check us out on twitter! (opens in a new tab)">
+                    <i class="fa-brands fa-square-twitter"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Check us out on Instagram! (opens in a new tab)">
+                    <i class="fa-brands fa-square-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Check us out on Youtube! (opens in a new tab)">
+                    <i class="fa-brands fa-square-youtube"></i></a>
             </li>
         </ul>
     </footer>
