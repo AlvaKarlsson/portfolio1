@@ -15,7 +15,6 @@ body {
 /*header*/
 
 header {
-    background-color: #3F3F3F;
     padding: 20px;
     background-size: cover;
 }
@@ -24,13 +23,12 @@ header > h2 {
 font-family: 'Josefin Sans', sans-serif;
 font-size: 220%;
 text-transform: uppercase;
-color: white;
 }
 
 #menu {
-    font-family: 'PT Sans', sans-serif;
     font-size: 100%;
     text-transform: uppercase;
+    line-height: 1px;
 }
 
 #menu li {
@@ -41,7 +39,11 @@ color: white;
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: gray;
 }
 
 /* big picture and text-box*/
