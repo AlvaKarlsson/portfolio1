@@ -250,6 +250,10 @@ footer p {
     h1 {
         font-size: 110%;
     }
+
+    #menu {
+        margin-top: 6px;
+    }
     
     .information {
         height: 400px;
