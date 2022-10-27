@@ -12,8 +12,6 @@ body {
     color: white;
 }
 
-/*header, logo and navigation links*/
-
 header {
     padding: 20px;
     background-size: cover;
@@ -46,8 +44,6 @@ text-transform: uppercase;
     color: gray;
 }
 
-/* big center picture and text-box*/
-
 #big-picture {
     background: url(../images/pexels-alari-tammsalu-8024999.jpg) no-repeat center center black;
     width: 100%;
@@ -77,8 +73,6 @@ h1 {
     padding: 20px;
 }
 
-/* information boxes*/
-
 .information {
     font-size: 110%;
     height: 200px;
@@ -99,8 +93,6 @@ h1 {
     display: inline;
     float: right;
 }
-
-/*sign up form*/
 
 .form {
     padding-bottom: 40px;
@@ -131,12 +123,11 @@ form h2 {
     font-weight: bold;
 }
 
-#button:hover {
+#button:hover{
     background-color: #3F3F3F;
     color: white;
+    cursor: pointer;
 }
-
-/* footer with social links */
 
 footer {
     height: 200px;
@@ -174,8 +165,6 @@ footer p {
 .social i:hover {
     color: gray;
 }
-
-/* responsive design, different screen sizes */
 
 @media screen and (max-width: 1200px) {
     .information {
