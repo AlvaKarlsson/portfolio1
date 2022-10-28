@@ -1,5 +1,5 @@
 # Towards Ironman
-Towards Ironman is a website for people that want to challenge themselves to complete an Ironman, no matter the distance. Together with one of the coaches, a personal training program is produced to suit the user and their goals. No prices are written out because prizing varies depending on length of the program, if the client wants a nutrition guide, help the days following up to the race with packing, nutrition during the race and other things. The absolute pricing is presented when the client and the coach has had a first meeting and talked about how extensive the programme will be.
+Towards Ironman is a website for people that want to challenge themselves to complete an Ironman, no matter the distance. Together with one of the coaches, a personal training program is produced to suit the user and their goals. No prices are written out because pricing varies depending on length of the program, if the client wants a nutrition guide, help the days following up to the race with packing, nutrition during the race and other things. The absolute pricing is presented when the client and the coach has had a first meeting and talked about how extensive the programme will be.
 
 The site is designed to be intriguing and set a spark of interest for the user to challenge themselves to a bigger goal. They have access to different ways to engage contact to the coaches and a section of thorough information about the programmes and the general structure.
 
@@ -35,8 +35,8 @@ The site is designed to be intriguing and set a spark of interest for the user t
 ![The form and the footer](https://user-images.githubusercontent.com/114992573/198264959-45411b46-4a57-432d-bd9b-476606825ebb.png)
 
 ## Testing
-- The website has been tested and works in various web browsers. The ones tested are: Google Chrome, Microsoft Edge and Mozarilla Firefox.
-- The website is responsive and works on both mobile, pad and computer sizes. Tested via devtools device toolbar and on my own phone.
+- The website has been tested and works in various web browsers. The ones tested are: Google Chrome, Microsoft Edge and Mozilla Firefox.
+- The website is responsive and works on both mobile, tablet and computer sizes. Tested via Devtools Device Toolbar and on my own phone.
 - All the navigation links work as they should.
 - The form works as planned and cannot submit before all the information that's asked for is in place.
 
