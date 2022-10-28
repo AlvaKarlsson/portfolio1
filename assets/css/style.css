@@ -166,48 +166,6 @@ footer p {
     color: gray;
 }
 
-@media screen and (min-width: 1920px) {
-    header {
-        font-size: x-large;
-    }
-    
-    main {
-        font-size: larger;
-    }
-
-    .information {
-        height: 300px;
-    }
-
-    #who-are-we p {
-        font-size: x-large;
-    }
-
-    #programme p {
-        font-size: x-large;
-    }
-
-    #big-picture {
-        background: url(../images/pexels-alari-tammsalu-8024999\ bigger.jpg) no-repeat center center black;
-        width: 100%;
-        height: 900px; 
-}
-    #text-box {
-        bottom: 550px;
-        left: 100px;
-}
-
-form { 
-    max-width: 750px;
-}
-
-    footer {
-        font-size: x-large;
-        height: 300px;
-    }
-
-}
-
 @media screen and (max-width: 1200px) {
     .information {
         height: 250px;
