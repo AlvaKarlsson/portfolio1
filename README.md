@@ -60,6 +60,7 @@ The site is designed to be intriguing and set a spark of interest for the user t
   - I tested for both mobile devices and for computers. The top picture is the result for mobile devices and the bottom picture is for computers.
   
 ![Accessibility on phones](https://user-images.githubusercontent.com/114992573/198268865-87690c80-ffeb-46a7-bd2e-d3fc63032ea9.png)
+
 ![Accessibility om computers](https://user-images.githubusercontent.com/114992573/198268928-eca24236-2e53-4564-8b1d-c5fc05cc306e.png)
 
 ### Unfixed Bugs
