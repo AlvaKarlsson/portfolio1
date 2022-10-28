@@ -166,7 +166,7 @@ footer p {
     color: gray;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2000px) {
     header {
         font-size: x-large;
     }
